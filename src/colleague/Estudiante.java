@@ -19,7 +19,7 @@ public class Estudiante {
 
     public void solicitarLibro(Libro libro) {
         System.out.println(nombre + " solicita el libro \"" + libro.getTitulo() + "\".");
-        mediator.solicitarPrestamo(this, libro);
+        mediator.solicitarLibro(this, libro);
     }
 
     public void devolverLibro(Libro libro) {
